@@ -1,8 +1,10 @@
 # spring
 
-Implementation of "Graph Drawing by Force-directed Placement" by Frutcherman and Reingold
+Implementation of "Graph Drawing by Force-directed Placement" by Frutcherman and Reingold in 1991
 using the jit-jax. This repo interprets the procedural/step-by-step nature of the algorithm
 into a matrix and gpu-friendly manner. 
+
+This algorithm is used almost everywhere you see beautiful graph/networks like from networkx.
 
 Most of the procedures and formulae have been merged into the equation below.
 
@@ -16,6 +18,8 @@ At this point $D \in \mathbb{R}^{n \times n \times 2}$ and shows the displacemen
 
 The last part of the algorithm is to cap the updates in either the $x$ or $y$ direction by the temperature $\tau$ at time $t$.
 
+
+Hyperparameters of this algorithm include the number of steps, initializations, and the cooling function for determining the temperature. 
 
 ## Demonstrations
 
