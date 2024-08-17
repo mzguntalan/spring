@@ -23,7 +23,7 @@ Hyperparameters of this algorithm include the number of steps, initializations, 
 
 ## Demonstrations
 
-The gifs take a while to start (because of recording).
+The gifs take a while to start (because of recording). The speed is intentionally slow for demonstration.
 
 ![animation](https://github.com/mzguntalan/media_for_other_repo/blob/main/spring/d1.gif?raw=true)
 ![animation](https://github.com/mzguntalan/media_for_other_repo/blob/main/spring/d2.gif?raw=true)
