@@ -16,3 +16,14 @@ At this point $D \in \mathbb{R}^{n \times n \times 2}$ and shows the displacemen
 
 The last part of the algorithm is to cap the updates in either the $x$ or $y$ direction by the temperature $\tau$ at time $t$.
 
+
+## Demonstrations
+
+The gifs take a while to start (because of recording).
+
+![animation](https://github.com/mzguntalan/media_for_other_repo/blob/main/spring/d1.gif?raw=true)
+![animation](https://github.com/mzguntalan/media_for_other_repo/blob/main/spring/d2.gif?raw=true)
+![animation](https://github.com/mzguntalan/media_for_other_repo/blob/main/spring/d3.gif?raw=true)
+![animation](https://github.com/mzguntalan/media_for_other_repo/blob/main/spring/d4.gif?raw=true)
+![animation](https://github.com/mzguntalan/media_for_other_repo/blob/main/spring/d5.gif?raw=true)
+![animation](https://github.com/mzguntalan/media_for_other_repo/blob/main/spring/d6.gif?raw=true)
