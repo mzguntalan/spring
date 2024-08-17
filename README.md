@@ -12,7 +12,7 @@ The attractive displacement is $F_A = \frac{E \Delta |\Delta|}{k}$ and the repul
 
 $$D = \frac{E\Delta|\Delta|^3 - \Delta k^3}{k |\Delta|^2}$$
 
-At this point $D \in \mathbb{R}^{n \times n \times 2}$ and shows the displacement contribution of each pair of nodes. $d = \Sum_j D_j$ where $d \in \mathbb{R}^{n \times 2}$ is the raw update vector for V. 
+At this point $D \in \mathbb{R}^{n \times n \times 2}$ and shows the displacement contribution of each pair of nodes. $d = \Sigma_j D_j$ where $d \in \mathbb{R}^{n \times 2}$ is the raw update vector for V. 
 
 The last part of the algorithm is to cap the updates in either the $x$ or $y$ direction by the temperature $\tau$ at time $t$.
 
